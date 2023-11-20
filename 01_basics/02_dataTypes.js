@@ -15,3 +15,10 @@ let isLoggedIn = false
 // boolean => true/false
 // null => standalone value
 // undefined => 
+// symbol => unique
+
+// object
+
+console.log(typeof "Ashraf")
+console.log(typeof null); // Object
+console.log(typeof undefined); 
