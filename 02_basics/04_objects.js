@@ -32,7 +32,7 @@ const obj2 = {3: "a", 4: "b"}
 
 // merging can be done by spread operator
 const obj3 = {...obj1, ...obj2}
-console.log(obj3);
+//console.log(obj3);
 
 // Database এর value আসলে 
 
@@ -53,10 +53,40 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+// DeStructuring ------
+
+const course = {
+    coursename: "Js in Bangla",
+    price: "1000",
+    courseInstructor: "Ashraf"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course // This is called Object destructuring
+
+console.log(instructor);
+
+// -------------- API JSON Format -----------------
+
+
+// {
+//     "name": "ashraf",
+//     "coursename": "js in Bangla",
+//     "price": "free",
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
