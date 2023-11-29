@@ -20,7 +20,7 @@ function one(){
 
     function two(){
         const website = "youtube"
-        console.log(username);
+        //console.log(username);
     }
     //console.log(website);
 
@@ -28,3 +28,29 @@ function one(){
 }
 
 one()
+
+if(true){
+    const username = "Ashraf"
+    if(username === "Ashraf"){
+        const website = " youtube"
+        //console.log(username + website);
+    }
+    //console.log(website);
+}
+
+//console.log(username);
+
+// ++++++++++++++++ Interesting +++++++++++++++++
+
+console.log(addone(5));
+
+function addone(num){
+    return num + 1
+}
+
+
+
+addTwo(5)
+const addTwo = function(num){
+    return num + 2
+}
