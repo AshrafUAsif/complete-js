@@ -39,7 +39,7 @@ const chai = () => {
 // }
 
 
-const addTwo = (num1, num2) =>  num1 + num2 // THis one line arrow func is called implicit return
+const addTwo = (num1, num2) =>  ({username: "Ashraf"}) // THis one line arrow func is called implicit return
 
 
 console.log(addTwo(3, 4));
