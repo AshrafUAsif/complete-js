@@ -18,7 +18,22 @@ for (const greet of greetings) {
 
 const map = new Map()
 map.set('BD', "Bangladesh")
+map.set('BD', "Bangladesh")
 map.set('USA', "United States of America")
 map.set('IN', "India")
 
-console.log(map);
+//console.log(map);
+
+for (const [key, value] of map) {
+    //console.log(key, ':-', value);
+}
+
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
+// for (const [key, value] of myObject) {
+//     console.log(key, ':-', value);
+// }
+
